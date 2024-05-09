@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(26, 25, 25)
+}
+/* .lists {
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+.box {
+    border: none;
+    max-width: 700px;
+    background-color: rgba(61, 61, 61, 0.144);
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden; /* Ensure content stays within the box */
+}
+
+
+.to_do_list{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+    color: hsla(0, 0%, 100%, 0.904);
+}
+button{
+    color: white;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight:bold;
+    border-radius: 5px;
+    padding:10px 20px;
+    transition: background-color 0.5s ease;
+    border: none;
+    
+}
+
+.addTask{
+    background-color: hsl(125, 47%, 55%);
+
+}
+.addTask:hover{
+    background-color: hsl(125, 47%, 44%);
+
+}
+.deleteBtn{
+    /* background-color: hsl(10, 90%, 50%); */
+    color: rgb(238, 1, 1);
+}
+
+.deleteBtn:hover{
+    background-color: hsla(0, 100%, 50%, 0.411);
+}
+.moveBtn{
+    background-color: hsl(207, 100%, 64%);
+}
+.moveBtn:hover{
+    background-color: hsl(207, 90%, 54%);
+}
+
+input[type='text']{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 6%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsl(0, 2%, 38%);
+}
+ol{
+    padding: 0px;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    /* background-color: hsl(0, 0%, 97%); */
+    margin-bottom: 10px;
+    /* border: 3px solid hsla(0, 0%, 85%, 0.75); */
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+    color: rgba(255, 255, 255, 0.87);
+}
+.deleteBtn,.moveBtn{
+    padding: 8px, 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+} 
+.editBtn{
+color: rgb(0, 153, 255);
+}
+.completedBtn{
+    color: rgb(30, 129, 30);
+    margin-left: 10px;
+}
+#completedTask{
+    text-decoration: line-through;
+    opacity: 70%;
+}
+/* .errorMsg{
+    color: red;
+} */
+
